@@ -305,7 +305,7 @@
 .controle{
   pointer-events: all;
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   background-color: #3c21d63d;
   color: #000000; /* é a cor do textooo*/
