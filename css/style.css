@@ -306,15 +306,88 @@
 /* cards de curiosidade que ficam um do lado do outro */
 .container_cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: stretch;
   gap: 40px;
   padding: 20px;
   flex-wrap: wrap;
 }
 .container_cards .card{
-  flex: 1;
+  flex: 1 1 400px;
   width: auto;
   margin: 0;
-  min-width: 400;
+  min-width: 0px;
+}
+
+.footer{
+  background-color: #0b0c14;
+  color: #aaa;
+  padding: 50px 0 0 0 0;
+  margin-top: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-top: 3px solid #4b3fb0;
+}
+.container_footer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.coluna{
+  flex: 1;
+  min-width: none;
+  margin-bottom: 30px;
+}
+.foo_titulo{
+  font-size: 1.6rem;
+  padding-top: 9px;
+  color: #c0c4ff;
+  font-weight: bold;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #abf11f;
+  padding-bottom: 9px;
+  display: inline-block;
+}
+.coluna p {
+  color: #9999b4;
+  line-height: 1.4;
+}
+.Link{
+  padding: 0;
+  list-style: none;
+}
+.Link li{
+  margin-bottom: 4px;
+}
+.Link a{
+  color: rgb(153, 139, 240);
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.Link a:hover{
+  color: azure;
+  padding-left: 7px;
+}
+.redes a{
+  color: #8f8e8e;
+  font-size: 1.9rem;
+  margin-top: 12px;
+  transition: color 0.5s ease;
+  padding: 4px;
+}
+.redes a:hover{
+  color: rgb(152, 104, 230);
+  padding-inline: 10px;
+}
+.fim{
+  background-color: #020011c5;
+  text-align: center;
+  padding: 13px;
+  font-size: 1.03rem;
+  color: #9f9bbd;
+  border-top: 1px solid rgb(34, 157, 194);
 }
